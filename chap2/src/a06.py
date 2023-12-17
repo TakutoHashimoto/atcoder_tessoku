@@ -5,6 +5,8 @@ R = [None] * Q
 for i in range(Q):
     L[i], R[i] = map(int, input().split())
 
+
+# 累積和を格納するリストを用意する
 S = [None] * (N + 1)
 S[0] = 0
 for i in range(N):
